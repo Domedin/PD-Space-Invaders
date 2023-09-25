@@ -22,10 +22,10 @@ function resetGame()
 	clearEnemies()
 	stopSpawner()
 	startSpawner()
-	--setShakeAmount(10)
+	setShakeAmount(10)
 end
 
-function setShakeAmount()
+function setShakeAmount(amount)
 	screenShakeSprite:setShakeAmount(amount)
 end
 
